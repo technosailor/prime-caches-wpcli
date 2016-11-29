@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Prime Caches WP-CLI 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/prime-caches-"
 "wpcli\n"
-"POT-Creation-Date: 2016-11-29 02:09:36+00:00\n"
+"POT-Creation-Date: 2016-11-29 03:05:11+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,9 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: includes/commands/class-command-cli-prime-caches.php:51
-msgid "Argument 1 should be a fully qualified URL"
+msgid ""
+"If you pass the --url argument, it must be a valid URL. Note, if you omit "
+"this argument, the home page URL will be used."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
