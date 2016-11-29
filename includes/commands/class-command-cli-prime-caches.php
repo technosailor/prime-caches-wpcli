@@ -34,9 +34,10 @@ class TS_Prime_Caches extends \WP_CLI_Command {
 	 */
 	public function prime( $args, $assoc_args ) {
 
-		$blog_id = ( ! empty( $assoc_args['blog_id'] ) ) ? (int) $assoc_args['blog_id'] : 1;
-
-		switch_to_blog( $blog_id );
+		if( is_multisite() ) {
+			$blog_id = ( ! empty( $assoc_args['blog_id'] ) ) ? (int) $assoc_args['blog_id'] : 1;
+			switch_to_blog( $blog_id );
+		}
 
 		$url = '';
 
@@ -61,7 +62,9 @@ class TS_Prime_Caches extends \WP_CLI_Command {
 			}
 		}
 
-		restore_current_blog();
+		if( is_multisite() ) {
+			restore_current_blog();
+		}
 
 	}
 
