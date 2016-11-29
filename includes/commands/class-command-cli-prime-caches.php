@@ -48,7 +48,7 @@ class TS_Prime_Caches extends \WP_CLI_Command {
 		}
 
 		if( ! filter_var( $url, FILTER_VALIDATE_URL ) ) {
-			WP_CLI::error( __( 'Argument 1 should be a fully qualified URL', 'tspc' ) );
+			WP_CLI::error( __( 'If you pass the --url argument, it must be a valid URL. Note, if you omit this argument, the home page URL will be used.', 'tspc' ) );
 		}
 
 
