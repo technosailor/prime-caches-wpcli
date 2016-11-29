@@ -8,7 +8,6 @@
  * Author URI: http://technosailor.com
  * Text Domain: tspc
  * Domain Path: /languages
- * @package TenUp\MU_Migration
  */
 
 if( defined( 'PRIME_CACHES_WP_CLI_VERSION' ) || ! defined( 'WP_CLI' ) ) {
