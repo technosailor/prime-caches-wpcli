@@ -1,0 +1,22 @@
+{
+  "name": "technosailor/prime-caches-wpcli",
+  "description": "WP CLI package to prime caches by crawling all links on the WordPress site's homepage. Useful for preventing cache thrashing when doing a migration",
+  "type": "wp-cli-package",
+  "homepage": "https://github.com/technosailor/prime-caches-wpcli",
+  "support": {
+    "issues": "https://github.com/technosailor/prime-caches-wpcli/issues"
+  },
+  "require": {
+    "sunra/php-simple-html-dom-parser": "1.5.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aaron Brazell",
+      "email": "aaron@technosailor.com"
+    }
+  ],
+  "autoload": {
+    "files": [ "prime-caches-wpcli.php" ]
+  }
+}
