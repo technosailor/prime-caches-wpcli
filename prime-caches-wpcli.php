@@ -15,7 +15,7 @@ if( defined( 'PRIME_CACHES_WP_CLI_VERSION' ) || ! defined( 'WP_CLI' ) ) {
 	return;
 }
 
-define( 'PRIME_CACHES_WP_CLI_VERSION', '0.2.2' );
+define( 'PRIME_CACHES_WP_CLI_VERSION', '0.1' );
 define( 'PRIME_CACHES_WP_CLI_COMMANDS_PATH', 'includes/commands/' );
 
 if ( defined( 'ABSPATH' ) ) {
